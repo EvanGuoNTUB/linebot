@@ -1,0 +1,16 @@
+{
+    "name": "bot",
+    "version": "1.0.0",
+    "description": "my Linebot application",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ."
+    },
+    "author": "evan",
+    "license": "ISC",
+    "dependencies": {
+        "@line/bot-sdk": "^6.2.1",
+        "express": "^4.16.3",
+        "linebot": "^1.4.1"
+    }
+}
