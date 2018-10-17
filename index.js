@@ -10,10 +10,8 @@ var express = require('express');
 //--------------------------------
 var bot = linebot({
     channelId: '1615371469',
-    channelSecret: '157db422188f79c80de5f3e19fe70671
-',
-    channelAccessToken: 'joq1Haeq7xhCSlmX95MrS+IqVBvrMmpKbYSiaFJKK4vGiknWu60CZ2idt+cfTKPXaDO0bxy20AlWeOglMu7xSa0a0buACiFTeCjMqYp76bvQbJAB08bZXc59KvsMAVxOYiKHKYD5MynPxVZvmt1+UwdB04t89/1O/w1cDnyilFU=
-'
+    channelSecret: '157db422188f79c80de5f3e19fe70671',
+    channelAccessToken: 'joq1Haeq7xhCSlmX95MrS+IqVBvrMmpKbYSiaFJKK4vGiknWu60CZ2idt+cfTKPXaDO0bxy20AlWeOglMu7xSa0a0buACiFTeCjMqYp76bvQbJAB08bZXc59KvsMAVxOYiKHKYD5MynPxVZvmt1+UwdB04t89/1O/w1cDnyilFU='
 });
 
 
@@ -21,7 +19,7 @@ var bot = linebot({
 // 機器人接受訊息的處理
 //--------------------------------
 bot.on('message', function(event) {
-    event.reply('Hello, 你好123');  
+    event.reply('Hello, 你好');  
 });
 
 
