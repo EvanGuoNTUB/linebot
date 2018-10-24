@@ -21,7 +21,7 @@ var bot = linebot({
 bot.on('message', function(event) {
     event.reply({
     "type": "text",
-    "text": "陳澤楷是醜八怪(poop)"
+    "text": "陳澤楷是醜八怪"
 });  
 });
 
